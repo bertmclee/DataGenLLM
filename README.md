@@ -20,8 +20,9 @@ Below is the file structure of the DataGenLLM repository, outlining the main com
 To use this repository:
 
 1. Clone the repo to your local machine using `git clone`.
-<!--2. Install required dependencies listed in `requirements.txt`.-->
-2. Explore the Jupyter notebooks to understand the dataset generation, validation, and model fine-tuning processes.
+2. Download and unzip the folders from [Generated_Datasets.zip](https://drive.google.com/file/d/1P0Rkwo2ic_HTpjHl8SyurK1Tvu1G6SY9/view?usp=drive_link), [Oracle_Datasets.zip](https://drive.google.com/file/d/1H1hDpV6-jtfPK14fcTlxdkS2NU0mxf8V/view?usp=drive_link), and [Trained_Models.zip](https://drive.google.com/file/d/1trY_UIVNFnLehuOoYrunvMH8qYG_QERU/view?usp=drive_link). Place these folders at the root of the repository. 
+3. The easiest way to run the code is to upload all the repo info into google drive and run the 3 scripts using the T4 GPU. When running the scripts, the repopath variable needs to be modified to refer to the root of the repository. 
+4. Alternatively, install required dependencies listed in `requirements.txt` and explore the Jupyter notebooks to understand the dataset generation, validation, and model fine-tuning processes.  When running the scripts, the repopath variable needs to be modified to refer to the root of the repository. 
 	1. Run `DatasetGeneration.ipynb` to generate data.
 	2. Run `DatasetValidation.ipynb` to do validation on generated data.
 	3. Run `BertFineTuning.ipynb` to evaluate the generated data.
