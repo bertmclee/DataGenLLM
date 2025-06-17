@@ -2,6 +2,8 @@
 
 DataGenLLM is a project that focuses on the automated generation of text data for classification problems using Large Language Models (LLMs). This project demonstrates the ability of LLMs to produce diverse and accurate datasets that can be utilized to fine-tune smaller models like BERT for specific classification tasks.
 
+For a detailed explanation of the project goals, design, and results, refer to our 📄 [DataGenLLM Project Report](https://drive.google.com/file/d/160ERnPz1vyM2OiLii8MmPNyUBtxSpCo3/view?usp=share_link).
+
 ## Repository Structure
 
 Below is the file structure of the DataGenLLM repository, outlining the main components and their purpose:
